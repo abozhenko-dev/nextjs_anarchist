@@ -1,0 +1,40 @@
+[data-rmiz-wrap="hidden"] {
+  visibility: hidden;
+}
+
+[data-rmiz-overlay] {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transition-property: background-color;
+}
+
+[data-rmiz-btn-open],
+[data-rmiz-btn-close] {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+[data-rmiz-btn-open] {
+  cursor: pointer;
+}
+
+[data-rmiz-btn-close] {
+  cursor: pointer;
+}
+
+[data-rmiz-modal-content] {
+  position: absolute;
+  padding: 2rem;
+  transform-origin: center center;
+  transition-property: transform;
+}

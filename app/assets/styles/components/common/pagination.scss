@@ -1,0 +1,73 @@
+.pagination {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 0.4rem;
+    width: 4rem;
+    height: 4rem;
+    white-space: nowrap;
+    color: var(--clr-default-600);
+    transition: color var(--transition), background-color var(--transition);
+
+    &--prev,
+    &--next {
+      &::before {
+        content: "";
+        position: absolute;
+        width: 3.2rem;
+        height: 3.2rem;
+        background-image: url("/icons/arrow-faq.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        pointer-events: none;
+      }
+    }
+
+    &--prev {
+      margin-right: 0.8rem;
+
+      &::before {
+        transform: rotate(90deg);
+      }
+    }
+
+    &--next {
+      margin-left: 0.8rem;
+
+      &::before {
+        transform: rotate(-90deg);
+      }
+    }
+
+    &--divider {
+      cursor: default;
+      pointer-events: none;
+    }
+
+    &--active {
+      color: var(--clr-default-100);
+      background-color: var(--clr-primary-400);
+      transition: color var(--transition), background-color var(--transition);
+      cursor: default;
+    }
+
+    @media (hover) {
+      &:hover,
+      &:focus {
+        color: var(--clr-default-100);
+        background-color: var(--clr-primary-400);
+        transition: color var(--transition), background-color var(--transition);
+      }
+    }
+  }
+}

@@ -1,0 +1,353 @@
+[
+  {
+    "trait": "Background",
+    "values": [
+      "Red Smoke",
+      "Spotlight",
+      "Wanted",
+      "Bulletholes",
+      "Earth",
+      "White Smoke",
+      "Yellow Smoke",
+      "Moon",
+      "Mars",
+      "Venus",
+      "Jupiter",
+      "Deathstar",
+      "Saturn"
+    ]
+  },
+  {
+    "trait": "Chain Accessory",
+    "values": [
+      "Extinction Silver",
+      "None",
+      "Anarchy Silver",
+      "Extinction Gold",
+      "Anarchy Gold",
+      "Gold Weed Leaf"
+    ]
+  },
+  {
+    "trait": "Lapel Pin",
+    "values": [
+      "Chihuahua Silver Pin",
+      "Hero Gold",
+      "Shade Silver Pin",
+      "None",
+      "Astroport Gold Pin",
+      "Hellcat Gold Pin",
+      "Shade Gold Pin",
+      "Akash Silver Pin",
+      "Sentinel Silver Pin",
+      "Random Earth Silver Pin",
+      "Cronos Silver Pin",
+      "Luart Gold Pin",
+      "Secret Gold Pin",
+      "ION Gold Pin",
+      "Sentinel Gold Pin",
+      "Random Earth Gold Pin",
+      "Cosmos Gold Pin",
+      "Terra Silver Pin",
+      "Luart Silver Pin",
+      "Chihuahua Gold Pin",
+      "Mars Protocol Gold Pin",
+      "Hellcat Silver Pin",
+      "LGBT Gold Pin",
+      "Skull Astronaut Silver Pin",
+      "Mars Protocol Silver Pin",
+      "Anchor Protocol Silver Pin",
+      "Stargaze Silver Pin",
+      "Skull Astronaut Gold Pin",
+      "Secret Silver Pin",
+      "ION Silver Pin",
+      "Astroport Silver Pin",
+      "Stargaze Gold Pin",
+      "Osmosis Silver Pin",
+      "LGBT Silver Pin",
+      "Cosmos Silver Pin",
+      "Terra Gold Pin",
+      "Hero Silver Pin",
+      "Voyager Gold Pin",
+      "Juno Gold Pin",
+      "Canadian Flag Silver Pin",
+      "Anchor Protocol Gold Pin",
+      "OSMO Gold Pin",
+      "Juno Silver Pin",
+      "Canadian Flag Gold Pin",
+      "Akash Gold Pin",
+      "Ukrainian Flag Silver Pin",
+      "Cronos Gold Pin"
+    ]
+  },
+  {
+    "trait": "Anarchist",
+    "values": ["Invisible", "Cosmonaut", "Revivalist"]
+  },
+  {
+    "trait": "Head",
+    "values": [
+      "Navy Blue Flatcap Hat",
+      "Bronze Space Helmet",
+      "Burgundy Flatcap Hat",
+      "Charcoal Flatcap Hat",
+      "Bronze Gas Mask",
+      "Charcoal Newsboy Hat",
+      "Silver Gas Mask",
+      "Black Gas Mask",
+      "Navy Blue Bowler Hat",
+      "Silver Space Helmet",
+      "Black Space Helmet",
+      "Gold Gas Mask",
+      "Black Newsboy Hat",
+      "Grey Newsboy Hat",
+      "Burgundy Bowler Hat",
+      "Charcoal Bowler Hat",
+      "Grey Trillby Hat",
+      "Grey Bowler Hat",
+      "Charcoal Trillby Hat",
+      "Navy Blue Trillby Hat",
+      "Grey Flatcap Hat",
+      "Black Flatcap Hat",
+      "Burgundy Newsboy Hat",
+      "Black Bowler Hat",
+      "Gold Space Helmet",
+      "Navy Blue Newsboy Hat",
+      "Burgundy Trillby Hat",
+      "Black Trillby Hat"
+    ]
+  },
+  {
+    "trait": "Rank Insignia",
+    "values": [
+      "Corporal",
+      "Sergeant",
+      "Private",
+      "None",
+      "Specialist",
+      "Command Sergeant Major",
+      "Private First Class"
+    ]
+  },
+  {
+    "trait": "Shirt",
+    "values": [
+      "Burgundy",
+      "Grey",
+      "White",
+      "Navy Blue",
+      "Black",
+      "Charcoal",
+      "Jedi"
+    ]
+  },
+  {
+    "trait": "Suit",
+    "values": [
+      "Bright Orange Narrow Collar",
+      "Charcoal Plaid Peaked Collar",
+      "Navy Blue Wide Collar",
+      "Blue Plaid Narrow Collar",
+      "Burgundy Narrow Collar",
+      "Charcoal Peaked Collar",
+      "Black Wide Collar",
+      "Navy Blue Peaked Collar",
+      "Bright Orange Peaked Collar",
+      "Black Word Wide Collar",
+      "Charcoal Plaid Narrow Collar",
+      "Black Peaked Collar",
+      "Grey Narrow Collar",
+      "Gold Paisley Peaked Collar",
+      "Burgundy Peaked Collar",
+      "Blue Plaid Wide Collar",
+      "Navy Blue Narrow Collar",
+      "Orange Grey Gradient Peaked Collar",
+      "Burgundy Paisley Peaked Collar",
+      "Black Grey Gradient Wide Collar",
+      "Charcoal Narrow Collar",
+      "Burgundy Wide Collar",
+      "Black Grey Gradient Narrow Collar",
+      "Charcoal Plaid Wide Collar",
+      "Blue Gradient Wide Collar",
+      "Grey Peaked Collar",
+      "Black Narrow Collar",
+      "Black Paisley Wide Collar",
+      "Orange Grey Gradient Wide Collar",
+      "Charcoal Wide Collar",
+      "Techno Color Wide Collar",
+      "Bright Orange Wide Collar",
+      "Blue Gradient Peaked Collar",
+      "Blue Green Gradient Narrow Collar",
+      "Blue Green Gradient Peaked Collar",
+      "Black Grey Gradient Peaked Collar",
+      "Blue Gradient Narrow Collar",
+      "Blue Green Gradient Wide Collar",
+      "Grey Dapper Narrow Collar",
+      "Burgundy Paisley Narrow Collar",
+      "Jedi Peaked Collar",
+      "Dark Green Narrow Collar",
+      "Gold Paisley Narrow Collar",
+      "Grey Dapper Peaked Collar",
+      "Black Word Peaked Collar",
+      "Black Paisley Peaked Collar",
+      "Black Paisley Narrow Collar",
+      "Orange Grey Gradient Narrow Collar",
+      "Black Word Narrow Collar",
+      "Grey Wide Collar",
+      "Techno Color Peaked Collar",
+      "Blue Plaid Peaked Collar",
+      "Techno Color Narrow Collar",
+      "Grey Dapper Wide Collar",
+      "Gold Paisley Wide Collar",
+      "Burgundy Paisley Wide Collar"
+    ]
+  },
+  {
+    "trait": "Tie",
+    "values": [
+      "Black Bowtie",
+      "Red Necktie",
+      "Black Necktie",
+      "Purple Bowtie",
+      "None",
+      "Navy Blue Necktie",
+      "Purple Necktie",
+      "Hong Kong Protest Necktie",
+      "Red Bowtie",
+      "Navy Blue Bowtie",
+      "Cosmos Necktie",
+      "Hong Kong Protest Bowtie",
+      "Cosmos Bowtie"
+    ]
+  },
+  {
+    "trait": "Vest",
+    "values": [
+      "None",
+      "Navy Blue Singlebreasted",
+      "Burgundy Doublebreasted",
+      "Grey Doublebreasted",
+      "Charcoal Singlebreasted",
+      "Navy Blue Doublebreasted",
+      "Grey Singlebreasted",
+      "Charcoal Doublebreasted",
+      "White Doublebreasted",
+      "Black Singlebreasted",
+      "Burgundy Singlebreasted",
+      "Black Doublebreasted",
+      "White Singlebreasted"
+    ]
+  },
+  {
+    "trait": "Pocket Square",
+    "values": ["None", "White", "Purple", "Navy Blue", "Black", "Red"]
+  },
+  {
+    "trait": "Space Helmet Lining",
+    "values": ["None", "Black", "Bronze", "Silver", "Gold"]
+  },
+  {
+    "trait": "Space Helmet Symbols",
+    "values": [
+      "None",
+      "LGBT",
+      "Pink Triangle",
+      "Extinction",
+      "Black Bauhinia",
+      "Smiley",
+      "Guy Fawkes",
+      "Anarchy",
+      "Black Lives Matter",
+      "Umbrella Movement",
+      "Peace",
+      "Women's Strike"
+    ]
+  },
+  {
+    "trait": "Space Helmet Reflection",
+    "values": [
+      "None",
+      "Supernova Blast",
+      "Veil Nebula",
+      "Chamaeleon Forming",
+      "Prawn Nebula",
+      "Separation of Stars",
+      "Black Eye Galaxy"
+    ]
+  },
+  { "trait": "Tie Clip", "values": ["None", "Silver", "Gold"] },
+  {
+    "trait": "Gas Mask Breather",
+    "values": [
+      "None",
+      "Bronze Triangle",
+      "Black Triangle",
+      "Gold Triangle",
+      "Black Circle",
+      "Silver Circle",
+      "Bronze Square",
+      "Silver Triangle",
+      "Gold Circle",
+      "Bronze Circle",
+      "Silver Square",
+      "Gold Square",
+      "Black Square"
+    ]
+  },
+  {
+    "trait": "Gas Mask Eyepiece",
+    "values": [
+      "None",
+      "Black Single Lens",
+      "Silver Smooth Double Lens",
+      "Bronze Smooth Double Lens",
+      "Silver Beveled Double Lens",
+      "Black Smooth Double Lens",
+      "Gold Single Lens",
+      "Black Beveled Double Lens",
+      "Bronze Single Lens",
+      "Bronze Beveled Double Lens",
+      "Gold Smooth Double Lens",
+      "Silver Single Lens",
+      "Gold Beveled Double Lens"
+    ]
+  },
+  {
+    "trait": "Gas Mask Head Piece",
+    "values": [
+      "None",
+      "Silver Bullets",
+      "Silver Horns",
+      "Black Bullets",
+      "Bronze Horns",
+      "Bronze Bullets",
+      "Gold Bullets",
+      "Black Horns",
+      "Gold Horns"
+    ]
+  },
+  {
+    "trait": "Gas Mask Secondary Color",
+    "values": ["None", "Orange", "Green", "Blue", "Red", "Dark Green"]
+  },
+  {
+    "trait": "Hat Card",
+    "values": [
+      "None",
+      "Ace of Diamonds",
+      "Ace of Hearts",
+      "Ace of Clubs",
+      "Ace of Spades"
+    ]
+  },
+  {
+    "trait": "Hat Feathers",
+    "values": [
+      "None",
+      "Yellow Fanned Feather",
+      "3 Brown Feathers",
+      "3 Striped Feathers",
+      "Orange Feather"
+    ]
+  }
+]

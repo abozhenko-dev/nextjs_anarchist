@@ -1,0 +1,34 @@
+.faq {
+  padding-bottom: 20rem;
+  background-color: var(--clr-ui-bg);
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .typography {
+      margin-right: 2rem;
+
+      @media (max-width: em(992)) {
+        margin-right: 0;
+        margin-bottom: 6rem;
+      }
+
+      @media (max-width: em(576)) {
+        margin-bottom: 4rem;
+      }
+    }
+
+    .accordion {
+      max-width: 90rem;
+    }
+
+    @media (max-width: em(992)) {
+      display: block;
+    }
+  }
+
+  @media (max-width: em(992)) {
+    padding-bottom: 8rem;
+  }
+}

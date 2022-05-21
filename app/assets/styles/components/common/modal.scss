@@ -1,0 +1,124 @@
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 20;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+
+  &.entering {
+    animation: showModal var(--duration) forwards;
+
+    .modal__content {
+      animation: showModalContent var(--duration) forwards;
+    }
+  }
+
+  &.entered {
+    opacity: 1;
+    visibility: visible;
+
+    .modal__content {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  &.exiting {
+    animation: showModal var(--duration) reverse;
+
+    .modal__content {
+      animation: showModalContent var(--duration) reverse;
+    }
+  }
+
+  &.exited {
+    opacity: 0;
+    visibility: hidden;
+
+    .modal__content {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    min-height: 100%;
+  }
+
+  &__content {
+    position: relative;
+    border: 0.2rem solid var(--clr-primary-400);
+    border-radius: 0.5rem;
+    padding: 4.5rem 5rem;
+    width: 100%;
+    max-width: var(--width);
+    box-shadow: 0 0 35px rgba(196, 196, 196, 0.25);
+    color: var(--clr-default-900);
+    background-color: var(--clr-default-100);
+
+    @media (max-width: em(992)) {
+      padding: 4.5rem 2rem;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 100%;
+      height: 0.3rem;
+      background-color: var(--clr-primary-400);
+    }
+
+    &::before {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    &::after {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+}
+
+@keyframes showModal {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes showModalContent {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

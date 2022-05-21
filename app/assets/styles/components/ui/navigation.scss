@@ -1,0 +1,42 @@
+.navigation {
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -0.3rem;
+      width: 0;
+      height: 0.1rem;
+      background-color: currentcolor;
+      transform: translateX(-50%);
+      transition: width var(--transition);
+    }
+
+    &:not(:last-child) {
+      margin-right: 2.5rem;
+    }
+
+    &--active {
+      &::after {
+        width: 100%;
+      }
+    }
+
+    @media (hover) {
+      &:hover,
+      &:focus {
+        &::after {
+          width: 100%;
+          transition: width var(--transition);
+        }
+      }
+    }
+  }
+}

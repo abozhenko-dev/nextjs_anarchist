@@ -1,0 +1,147 @@
+// SCSS variables
+$containerWidth: 120rem;
+
+// SCSS Functions
+@import "./functions/fluid-font";
+@import "./functions/em";
+
+// Fonts
+@import "./fonts";
+
+// Normalize
+@import "./normalize";
+
+// Root variables
+:root {
+  // base
+  --font-family: "Gotham", sans-serif;
+  --font-weight: 500;
+  --transition: 0.3s;
+  --content-width: 120rem;
+  --container-offset: 1.5rem;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // default colors
+  --clr-default-100: #fff;
+  --clr-default-400: #e8e8e8;
+  --clr-default-600: #999;
+  --clr-default-700: #1c1c1c;
+  --clr-default-700-hover: #3e3a3a;
+  --clr-default-700-active: #262626;
+  --clr-default-800: #101010;
+  --clr-default-900: #000;
+
+  // primary colors
+  --clr-primary-400: #e33636;
+  --clr-primary-400-hover: #fc4a4a;
+  --clr-primary-400-active: #cf2c2c;
+
+  // ui colors
+  --clr-ui-bg: #0d0d0d;
+  --clr-ui-border: #343434;
+  --clr-ui-input: #282828;
+}
+
+// General styles
+#__next {
+  height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: var(--clr-default-400);
+  background-color: var(--clr-ui-bg);
+
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  min-width: 32rem;
+  min-height: 100%;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--container-offset);
+  padding-left: var(--container-offset);
+  width: 100%;
+  max-width: var(--container-width);
+}
+
+.loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--clr-ui-bg);
+  transition: opacity var(--transition), visibility var(--transition);
+  pointer-events: none;
+}
+
+.padding {
+  &__top {
+    &--20 {
+      padding-top: 20rem;
+
+      @media (max-width: em(992)) {
+        padding-top: 10rem;
+      }
+    }
+  }
+}
+
+// Components
+@import "./components/common/header";
+@import "./components/common/footer";
+@import "./components/common/accordion";
+@import "./components/common/info";
+@import "./components/common/timeline";
+@import "./components/common/pagination";
+@import "./components/common/modal";
+
+@import "./components/pages/home/hero";
+@import "./components/pages/home/collection";
+@import "./components/pages/home/roadmap";
+@import "./components/pages/home/team";
+@import "./components/pages/home/faq";
+
+@import "./components/pages/agents/agents";
+
+@import "./components/ui/burger";
+@import "./components/ui/navigation";
+@import "./components/ui/networks";
+@import "./components/ui/typography";
+@import "./components/ui/button";
+@import "./components/ui/nav-button";
+
+// Libs
+@import "./libs/swiper/swiper";
+@import "./libs/gallery/gallery";
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}

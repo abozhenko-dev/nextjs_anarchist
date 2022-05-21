@@ -1,0 +1,42 @@
+{
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrder": [
+    "^react$",
+
+    "^next/(.*)$",
+
+    "<THIRD_PARTY_MODULES>",
+
+    "^@/pages(/.*$(?<!\\.scss))?$",
+
+    "^@/layout(/.*$(?<!\\.scss))?$",
+
+    "^@/common(/.*$(?<!\\.scss))?$",
+
+    "^@/forms(/.*$(?<!\\.scss))?$",
+
+    "^@/ui(/.*$(?<!\\.scss))?$",
+
+    "^@/components(/.*$(?<!\\.scss))?$",
+
+    "^@/store(/.*$(?<!\\.scss))?$",
+
+    "^@/services(/.*$(?<!\\.scss))?$",
+
+    "^@/hooks(/.*$(?<!\\.scss))?$",
+
+    "^@/types(/.*$(?<!\\.scss))?$",
+
+    "^@/constants(/.*$(?<!\\.scss))?$",
+
+    "^@/helpers(/.*$(?<!\\.scss))?$",
+
+    "^@/assets(/.*$(?<!\\.scss))?$",
+
+    "^..(/.*$(?<!\\.scss))?$",
+    "^.(/.*$(?<!\\.scss))?$",
+
+    "(.scss)$"
+  ]
+}

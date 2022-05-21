@@ -1,0 +1,56 @@
+.nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 0.4rem;
+  padding: 0.5rem 1.5rem;
+  width: min-content;
+  height: 4rem;
+  min-width: 6.4rem;
+  background-color: var(--clr-default-700);
+  transition: background-color var(--transition);
+
+  span {
+    margin-left: 0.5rem;
+  }
+
+  &__direction {
+    &--bottom {
+      svg {
+        transform: rotate(-90deg);
+      }
+    }
+
+    &--right {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+
+    &--top {
+      svg {
+        transform: rotate(90deg);
+      }
+    }
+
+    &--left {
+      svg {
+        transform: rotate(0deg);
+      }
+    }
+  }
+
+  @media (hover) {
+    &:hover,
+    &:focus {
+      background-color: var(--clr-default-700-hover);
+      transition: background-color var(--transition);
+    }
+
+    &:active {
+      background-color: var(--clr-default-700-active);
+      transition: background-color var(--transition);
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  width: min-content;
+  min-width: 21rem;
+  background-color: var(--clr-primary-400);
+  transition: background-color var(--transition);
+
+  span {
+    position: relative;
+    padding-right: 2rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: 1.4rem;
+      height: 1.2rem;
+      background-image: url("/icons/arrow-right.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+  }
+
+  &__type {
+    &--short {
+      min-height: 4.2rem;
+    }
+
+    &--tall {
+      min-height: 6.5rem;
+    }
+  }
+
+  &__position {
+    &--left {
+      margin-right: auto;
+    }
+
+    &--center {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    &--right {
+      margin-left: auto;
+    }
+  }
+
+  @media (hover) {
+    &:hover,
+    &:focus {
+      background-color: var(--clr-primary-400-hover);
+      transition: background-color var(--transition);
+    }
+
+    &:active {
+      background-color: var(--clr-primary-400-active);
+      transition: background-color var(--transition);
+    }
+  }
+}
